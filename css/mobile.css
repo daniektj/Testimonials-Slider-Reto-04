@@ -1,0 +1,87 @@
+@media (max-width: 1080px) {
+    main{
+        min-width: 375px;
+        min-height: 667px;
+    }
+
+    .bg-container{
+        width: 375px;
+        height: 667px;
+    }
+
+    .bg-container_01{
+        top: 370px;
+        left: 150px;
+        width: 60px;
+        height: 50px;
+        background-size: 60px 50px;
+    }
+    .bg-container_02{
+        width: 270px;
+        height: 70px;
+        background-size: 270px 70px;
+    }
+
+    .bg-container_03{
+        top: 25px;
+        right: 25px;
+        width: 325px;
+        height: 307px;
+        background-size: 325px 307px;
+    }
+
+    .card-container{
+        flex-flow: column;
+        justify-content: center;
+        width: 375px;
+        height: 667px;
+    }
+
+    .profile-photo{
+        top: 55px;
+        right: 60px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .card-container_profileText{
+        position: absolute;
+        bottom: 80px;
+        width: 310px;
+        height: 190px;
+    }
+    
+    .profile-text{
+        width: 310px;
+        height: 130px;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .name{
+        display: block;
+        margin: auto;
+        margin-top: -20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .job{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+    .button-container{
+        top: 285px;
+        right: 145px;
+        z-index: 3;
+    }
+    
+}

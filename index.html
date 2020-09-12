@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <title>Reto 04 - Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body onkeydown="keyCapture()">
+    <main>
+      <div class="bg-container">
+        <div class="bg-container_01"></div>
+        <div class="bg-container_02"></div>
+        <div class="bg-container_03"></div>
+        
+        <div class="card-container" id="profile-01">
+          <div class="card-container_profileText">
+            <p class="profile-text">"I’ve been interested in coding for a while but never taken the jump, until
+              now. I couldn’t recommend this course enough. I’m now in the job of my
+              dreams and so excited about the future."</p>
+            <h4 class="name">Tanya Sinclair</h4>
+            <span class="job">UX Engineer</span>
+          </div>
+          <img class="profile-photo" src="images/image-tanya.jpg" alt="Tanya Sinclair profile photo">
+        </div>
+
+        <div class="card-container" id="profile-02">
+          <div class="card-container_profileText">
+            <p class="profile-text">“ If
+              you want to lay the best foundation possible I’d recommend taking this
+              course. The depth the instructors go into is incredible. I now feel so
+              confident about starting up as a professional developer. ”</p>
+            <h4 class="name">John Tarkpor</h4>
+            <span class="job">Junior Front-end Developer</span>
+          </div>
+          <img class="profile-photo" src="images/image-john.jpg" alt="John Tarkpor profile photo">
+        </div>
+
+            <div class="button-container">
+              <button class="prev-button" type="button" id="button-action" onclick="slideFunct()"></button>
+              <button class="next-button" type="button" id="button-action" onclick="slideFunct()"></button>
+            </div>
+      </div>
+    </main>
+    <script src="js/slide-control.js"></script>
+  </body>
+</html>
