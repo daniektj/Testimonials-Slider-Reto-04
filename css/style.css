@@ -47,7 +47,7 @@ main{
 
     width: 120px;
     height: 100px;
-    background-image: url(./images/pattern-quotes.svg);
+    background-image: url(../images/pattern-quotes.svg);
 }
 .bg-container_02{
     position: absolute;
@@ -57,7 +57,7 @@ main{
 
     width: 610px;
     height: 154px;
-    background-image: url(./images/pattern-curve.svg);
+    background-image: url(../images/pattern-curve.svg);
 }
 .bg-container_03{
     position: absolute;
@@ -67,7 +67,7 @@ main{
 
     width: 495px;
     height: 465px;
-    background-image: url(./images/pattern-bg.svg);
+    background-image: url(../images/pattern-bg.svg);
     background-size: contain;
 }
 
@@ -154,9 +154,9 @@ button{
 }
 
 .prev-button{
-    background-image: url(/images/icon-prev.svg);
+    background-image: url(../images/icon-prev.svg);
 }
 
 .next-button{
-    background-image: url(/images/icon-next.svg);
+    background-image: url(../images/icon-next.svg);
 }
