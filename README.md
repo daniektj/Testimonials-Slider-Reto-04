@@ -1,4 +1,4 @@
-# Escuela de Desarrollo Web by Platzi - Four card feature section
+# Escuela de Desarrollo Web by Platzi - Testimonial Slider
 
 ![](screenshot.jpg)
 
